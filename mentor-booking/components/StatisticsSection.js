@@ -13,9 +13,9 @@ export default function StatisticsSection() {
       <h3 className="text-lg font-bold mb-4">Community Statistics</h3>
       <div className="grid grid-cols-2 gap-4">
         {statistics.map((stat, index) => (
-          <div key={index} className="bg-gray-100 p-4 rounded-lg text-center">
-            <p className="text-xl font-bold">{stat.value}</p>
-            <p className="text-sm">{stat.label}</p>
+          <div key={index} className="bg-gray-300 p-4 rounded-lg text-left flex flex-col">
+            <p className="text-xl text-black">{stat.value}</p>
+            <p className="text-sm text-gray-700">{stat.label}</p>
           </div>
         ))}
       </div>
