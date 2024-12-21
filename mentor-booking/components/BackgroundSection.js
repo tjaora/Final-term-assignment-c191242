@@ -3,8 +3,7 @@ import React from "react";
 export default function BackgroundSection() {
     return (
       <div className="bg-white shadow-md rounded-lg p-4 mt-6">
-        {/* Section Header */}
-        <h2 className="text-lg font-bold mb-4">Background</h2>
+      
   
         {/* Skills Row */}
         <div className="flex justify-between items-center mb-4">

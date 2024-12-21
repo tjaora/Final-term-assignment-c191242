@@ -19,9 +19,12 @@ export default function Home() {
       
       <div className="container flex mx-auto px-6 justify-evenly w-auto bg-white">
         <div>
-        
+          {/* Section Header */}
+          <h2 className="mt-8 text-lg font-bold mb-4 text-black ">Background</h2>
         <BackgroundSection />
+        <h3 className="mt-8 text-lg font-bold mb-2 text-black">Experiences</h3>
         <ExperienceSection />
+        <h3 className="mt-8 text-lg font-bold mb-4 text-black">Educations</h3>
         <EducationSection />
         </div>
         <div>

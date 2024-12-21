@@ -17,8 +17,8 @@ export default function ExperienceSection() {
   ];
 
   return (
-    <div className="bg-white shadow rounded-lg p-6 mt-6">
-      <h3 className="text-lg font-bold mb-4">Experiences</h3>
+    <div className="bg-white shadow rounded-lg p-6 mt-2">
+      
       {experiences.map((exp, index) => (
         <div key={index} className="mb-4 border-b pb-4">
           <h4 className="text-md font-semibold">{exp.role}</h4>

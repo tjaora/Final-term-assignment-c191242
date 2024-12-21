@@ -10,7 +10,7 @@ export default function StatisticsSection() {
 
   return (
     <div className="bg-white shadow rounded-lg p-6 mt-6">
-      <h3 className="text-lg font-bold mb-4">Community Statistics</h3>
+      <h3 className="text-lg font-bold mb-4 text-black">Community Statistics</h3>
       <div className="grid grid-cols-2 gap-4">
         {statistics.map((stat, index) => (
           <div key={index} className="bg-gray-300 p-4 rounded-lg text-left flex flex-col">

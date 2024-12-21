@@ -20,7 +20,7 @@ export default function Tabs() {
         </button>
       </div>
       {activeTab === "Overview" ? (
-        <div className="mt-4">5+ years of experience in Software Engineering</div>
+        <div className="mt-4 text-black font-bold">5+ years of experience in Software Engineering</div>
       ) : (
         <div className="mt-4">No reviews available yet.</div>
       )}
