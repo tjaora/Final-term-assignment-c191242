@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from 'next/image'
 
 export default function HeroSection() {
     const [isClient, setIsClient] = useState(false);
@@ -18,12 +19,14 @@ export default function HeroSection() {
                 />
             )}
             <div className="relative text-left flex flex-row -mt-12 ml-10">
-
+                <picture>
                 <img
                     src="https://mocktrails.com/uploads/medium/cc257a5a2b10bbc5862717147902b9ad_medium-870x1200.jpg" // Replace with your image path
                     alt="Profile"
                     className="h-28 w-28 rounded-full border-4 border-white"
                 />
+                </picture>
+                
                 <div className="mt-10 space-x-2 ">
                 <h1 className="text-3xl font-bold mt-2 text-gray-900">Abir Khan</h1>
                 <p className="text-gray-900 text-xl">Senior Software Engineer at <strong>Growth Garage</strong></p>
@@ -34,10 +37,10 @@ export default function HeroSection() {
                     </div>
                 </div>
                 
-                <div className="relative flex flex-row mt-14 ml-40 gap-4 -right-80">
+                <picture className="relative flex flex-row mt-14 ml-40 gap-4 -right-80">
                 <img src="../public/chat-icon.jpeg" alt="chat" className="h-10 w-10 rounded-2xl shadow-md"/>
                 <img src="../public/favorite-icon.png" alt="Mark favorite" className="h-10 w-10 rounded-2xl shadow-md"/>
-               </div>   
+               </picture>   
                
                
             </div>
