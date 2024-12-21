@@ -2,23 +2,23 @@
 /* mentor-booking/<br>
 ├── components/<br>
 │   ├── Header.js<br>
-│   ├── HeroSection.js
-│   ├── Tabs.js
-│   ├── BackgroundSection.js
-│   ├── ExperienceSection.js
-│   ├── EducationSection.js
-│   ├── StatisticsSection.js
-│   ├── SessionSection.js
-│   ├── Footer.js
-├── pages/
-│   ├── index.js
-├── public/
-│   ├── mentor.jpg
-│   ├── background.jpg
-├── styles/
-│   ├── globals.css
-├── tailwind.config.js
-├── package.json
+│   ├── HeroSection.js<br>
+│   ├── Tabs.js<br>
+│   ├── BackgroundSection.js<br>
+│   ├── ExperienceSection.js<br>
+│   ├── EducationSection.js<br>
+│   ├── StatisticsSection.js<br>
+│   ├── SessionSection.js<br>
+│   ├── Footer.js<br>
+├── pages/<br>
+│   ├── index.js<br>
+├── public/<br>
+│   ├── mentor.jpg<br>
+│   ├── background.jpg<br>
+├── styles/<br>
+│   ├── globals.css<br>
+├── tailwind.config.js<br>
+├── package.json<br>
  */
 
 
