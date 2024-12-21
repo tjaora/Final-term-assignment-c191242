@@ -17,22 +17,28 @@ export default function HeroSection() {
                     }}
                 />
             )}
-            <div className="relative text-left flex -mt-12 ml-10">
+            <div className="relative text-left flex flex-row -mt-12 ml-10">
 
                 <img
                     src="https://mocktrails.com/uploads/medium/cc257a5a2b10bbc5862717147902b9ad_medium-870x1200.jpg" // Replace with your image path
                     alt="Profile"
-                    className="h-24 w-24 rounded-full border-4 border-white"
+                    className="h-28 w-28 rounded-full border-4 border-white"
                 />
-                <div className="mt-10">
-                <h1 className="text-2xl font-bold mt-2 text-gray-900">Abir Khan</h1>
-                <p className="text-gray-900">Senior Software Engineer at Growth Garage</p>
+                <div className="mt-10 space-x-2 ">
+                <h1 className="text-3xl font-bold mt-2 text-gray-900">Abir Khan</h1>
+                <p className="text-gray-900 text-xl">Senior Software Engineer at <strong>Growth Garage</strong></p>
                 <div className="text-gray-900 flex flex-col">
                     <div>Bangladesh</div>
                     <div>Active 7 days ago</div>
                     <div>Responds in 1 hour</div>
                     </div>
                 </div>
+                
+                <div className="relative flex flex-row mt-14 ml-40 gap-4 -right-80">
+                <img src="../public/chat-icon.jpeg" alt="chat" className="h-10 w-10 rounded-2xl shadow-md"/>
+                <img src="../public/favorite-icon.png" alt="Mark favorite" className="h-10 w-10 rounded-2xl shadow-md"/>
+               </div>   
+               
                
             </div>
         </div>
